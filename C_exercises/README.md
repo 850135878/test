@@ -1,5 +1,3 @@
-# test
-
 # C练习题
 
 ## Exercise 1
@@ -17,9 +15,6 @@
 ```cmd
 # 默认文件保存在img/pic.txt下
 bash sh/main.sh
-```
-
-```cmd
 # 设置保存到img/下的指定文件
 bash sh/main.sh <filename>
 ```
@@ -40,8 +35,8 @@ bash sh/main.sh <filename>
 <table>
     <tr align="center">
         <th>三个点坐标输入</th>
-		<th>输出信息</th>
-		<th>非法表达式说明</th>
+        <th>输出信息</th>
+        <th>非法表达式说明</th>
     </tr>
     <tr align="center">
         <td>10 10</td>
@@ -61,19 +56,27 @@ bash sh/main.sh <filename>
 <table>
     <tr align="center">
         <th>三个点坐标输入</th>
-		<th>输出信息</th>
-		<th>非法表达式说明</th>
+        <th>输出信息(左下角为坐标原点)</th>
     </tr>
     <tr align="center">
         <td>10 10</td>
-        <td rowspan=3><img src="./readme.assets/image-20240812103401573.png"></img></td>
-        <td rowspan=3>三个点不能组成三角形</td>
+        <td rowspan=3><img src="./exercise1/img/image-20240812103401573.png"></img></td>
     </tr>
     <tr align="center">
         <td>20 10</td>
     </tr>
     <tr align="center">
         <td>50 100</td>
+    </tr>
+	<tr align="center">
+        <td>0 0</td>
+        <td rowspan=3><img src="./exercise1/img/image-20240812103401574.png"></img></td>
+    </tr>
+    <tr align="center">
+        <td>0 50</td>
+    </tr>
+    <tr align="center">
+        <td>30 80</td>
     </tr>
 </table>
 
@@ -160,4 +163,3 @@ bash sh/main.sh
 | (3.5+2.7)\*(4.2-1.8)/(0.5*2)+(7.6-3.4)\*1.5 |           21.18000           | 21.18000 |
 |             (3+4)(5-2)/(2(7-3))             |           2.62500            | 2.62500  |
 |              10(20+20)-90*1.8               |             238              |   238    |
-
